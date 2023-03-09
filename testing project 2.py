@@ -11,7 +11,7 @@ def check_event_log(event_id):
 
     for event in events:
         
-        print(type(event))
+        #print(type(event))
         #print(event.EventID,event.TimeGenerated)
         '''
         if event_id == event.EventID:
